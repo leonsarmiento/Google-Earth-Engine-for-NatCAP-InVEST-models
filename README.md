@@ -1,3 +1,3 @@
-# EE_x_SWY
-Pre procesador para datos de InVEST SWY</p>
-Google Erth Engine scripts to fetch InVEST Seasonal Water Yield model inputs
+# Google-Earth-Engne-for-NatCAP-InVEST-models
+A set of Google Earth Engine scripts for NatCAP InVEST input data preprocessing</p>
+Initially focused on freshwater ecosystem services models
