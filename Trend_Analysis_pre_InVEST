@@ -1,0 +1,18 @@
+The links below correspond will perform linear trends analysis from different modeling sources. 
+These trend analysis complement "snapshot" analysis generated from models such as InVEST.
+These examples use two watersheds in Zambia for comparative analysis.
+
+FLDAS Surface Runoff
+https://code.earthengine.google.com/5d30c1892a0ea19919fdfad0d31ee52f
+
+FLADAS Baseflow runoff
+https://code.earthengine.google.com/69bca1934a47d86f96f084de9d5afde1
+
+MODIS EVI 
+https://code.earthengine.google.com/ee60baa041e6077b97d8d475a7127519
+
+MODIS ET
+https://code.earthengine.google.com/4eba607f3d1d7083b9d70e8252fa4bff
+
+SMOS soil moisture
+https://code.earthengine.google.com/b922153e743ac24645e98e68776794c3
