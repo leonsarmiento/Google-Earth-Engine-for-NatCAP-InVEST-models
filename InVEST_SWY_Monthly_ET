@@ -1,3 +1,5 @@
+// This Google Earth Engine Javascript code reduces and export MOD16A2.006 Terra Net Evapotranspiration 8-Day Globa time series in the appropiate format required for InVEST SWY
+
 Map.setOptions("TERRAIN")
 Map.addLayer(AOI);
 var basin = basins.filterBounds(Kitwe) // This could be any geometry of interest
