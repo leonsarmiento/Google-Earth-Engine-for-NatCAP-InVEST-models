@@ -3,11 +3,13 @@
 Map.setOptions("TERRAIN")
 //Map.addLayer(AOI);
 //var basin = basins.filterBounds(Kitwe) // This could be any geometry of interest or AOI
-var basin = AOI // a rectangle cna be draw to define AOI
+var basin = AOI // a rectangle can be draw to define AOI
+
+var EPSG = 'EPSG:3857'  // EPSG of AOI, recomended: UTM based EPSG
 
 var band_name = 'precipitation' // or 'RainEvent'
+var precip_threshold = 2  // mininmum rain event depth to be considered
 
-var EPSG = 'EPSG:3857'
 //////////////////////////////////////////////////
 var startyear = 2000;
 var endyear = 2020;
