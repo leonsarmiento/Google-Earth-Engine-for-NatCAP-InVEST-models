@@ -11,7 +11,7 @@ var band_name = 'precipitation' // or 'RainEvent'
 var precip_threshold = 2  // mininmum rain event depth to be considered
 
 //////////////////////////////////////////////////
-var startyear = 2000;
+var startyear = 2010; // Maximum batch size of 10 years for any daily dataset.
 var endyear = 2020;
 
 var period = startyear+"_"+endyear
@@ -42,7 +42,7 @@ var AddRainEvent = function (image) {
 };
   
 
-var CHIRPS = ee.ImageCollection("UCSB-CHG/CHIRPS/PENTAD")
+var CHIRPS = ee.ImageCollection("UCSB-CHG/CHIRPS/DAILY")
                     .filter(ee.Filter.date(startdate,enddate))
                     .map(AddRainEvent)
 
