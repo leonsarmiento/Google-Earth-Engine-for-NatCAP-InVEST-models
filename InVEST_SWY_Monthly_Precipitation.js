@@ -7,7 +7,7 @@ var basin = AOI // a rectangle can be draw to define AOI
 
 var EPSG = 'EPSG:3857'  // EPSG of AOI, recomended: UTM based EPSG
 
-var band_name = 'precipitation' // or 'RainEvent'
+var band_name = 'precipitation' // 'precipitation' or 'RainEvent'
 var precip_threshold = 2  // mininmum rain event depth to be considered
 
 //////////////////////////////////////////////////
